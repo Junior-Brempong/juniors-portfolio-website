@@ -1,0 +1,119 @@
+@use "./variables";
+
+.project-one, .project-two, .project-three {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    .img-container {
+        width: 80%;
+        img {
+            border-radius: 8px;
+        }
+    }
+    .text-container {
+        text-align: center;
+    }
+}
+
+.projects {
+    h3 {
+        font-size: 3rem;
+        border-bottom: 2px solid variables.$box-shadow-color;
+        width: 35%;
+    }
+    
+    h4 {
+        font-size: 2rem;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+    }
+    li {
+        background-color: variables.$header-colour;
+        padding: 15px;
+        border-radius: 10px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+    .project-one {
+        margin-top: 100px;
+        img {
+            box-shadow: 10px 10px 15px variables.$box-shadow-color;
+        }
+    }
+    .project-two {
+        img { 
+            box-shadow: 10px 10px 15px variables.$box-shadow-color;
+        }
+    }
+    .project-three {
+        img { 
+            box-shadow: 10px 10px 15px variables.$box-shadow-color;
+        }
+    }
+    
+    .projects-image {
+        width: 80%;
+        img {
+            border-radius: 8px;
+        }
+    }
+    .blink {
+        animation: blinker 1s step-start infinite;
+      }
+}
+
+// Effects & Animations
+
+.project-one img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.project-two img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.project-three img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.project-one h4:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.project-two h4:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.project-three h4:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.project-one button:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.project-two button:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.project-three button:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.projects li:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+    color: white;
+}

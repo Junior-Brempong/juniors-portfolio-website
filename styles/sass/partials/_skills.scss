@@ -1,0 +1,46 @@
+@use "./variables";
+
+.skills {
+    background-color: variables.$header-colour;
+    height: 110%;
+    .blink {
+        animation: blinker 1s step-start infinite;
+      }
+    h2 {
+        color: white;
+    }
+    .skills-container {
+        font-size: 4rem;
+        margin: 50px;
+        margin-top: 0px;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        i {
+            padding: 25px;
+            padding-top: 25px;
+        }
+        .individual-skill {
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            margin-left: 10px;
+        }
+        .individual-skill:hover{
+            transform: scale(1.3);
+            transition: all 0.2s ease-in-out;
+            color: white;
+        }
+        .skill-name{
+            font-size: variables.$base-font-size;
+        }
+    }
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+

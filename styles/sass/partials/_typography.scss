@@ -1,0 +1,67 @@
+@use "./variables";
+
+// Global stylings
+
+html {
+    /* if we set our root element font-size to 125%, then 1 rem = 20px */
+    font-size: 125%;
+    color: variables.$body-colour;
+  }
+  
+  body {
+    font-family: variables.$body-font;
+    font-size: variables.$base-font-size;
+    color: variables.$text-color
+  }
+  
+  h1 {
+    font-family: variables.$header-font;
+    color: white;
+    text-shadow: -2px -2px 0 black,
+  }
+  
+  h2, h3, h4 {
+    font-family: variables.$header-font;
+    font-weight: normal;
+    color: variables.$sub-heading-colour;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 5rem;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+  
+  h4 {
+    font-size: 1.25rem;
+  }
+  
+
+  
+  ul, li, a, input {
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    background-color: variables.$box-shadow-color;
+    color: variables.$body-colour;
+    font-family: variables.$body-font;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }

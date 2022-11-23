@@ -1,0 +1,70 @@
+@use "./variables";
+
+.contact-me {
+    margin-top: 100px;
+    background-color: variables.$header-colour;
+    height: 575px;
+    h2 {
+        color: white;
+        padding-top: 25px;
+    }
+    .text-container {
+        text-align: center;
+    }
+    .contact-text-container {
+        margin-top: 50px;
+        display: flex;
+      }
+      .left-side-text {
+        width: 35%;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      .form-element {
+        width: 200%;
+        margin-left: 55%;
+      }
+      .right-side-text {
+        width: 65%;
+        margin-left: 25%;
+      }
+      ul {
+        display: flex;
+        color: white;
+        li {
+            width: 65px;
+            font-size: 1.5rem;
+        }
+        a {
+            color: white;
+        }
+      }
+}
+
+input, textarea {
+    font-family: variables.$body-font;
+    font-size: 1.6rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 45px;
+    margin: 5px 0;
+    background-color: white;
+    border: 2px solid variables.$box-shadow-color;
+}
+
+#users-name {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+#user-message {
+    line-height: 4rem;
+    font-size: 1rem;
+}
+
+// Effects & Animation::after
+
+/* Animation */
+

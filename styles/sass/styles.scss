@@ -1,0 +1,22 @@
+// General Set-up and styles
+
+@use "./partials/setup";
+@use "./partials/variables";
+@use "./partials/typography";
+@use "./partials/global";
+
+// Page Styles Begin
+
+// Header Styles
+
+@use "./partials/header";
+@use "./partials/about-me";
+@use "./partials/skills";
+@use "./partials/project-portfolio";
+@use "./partials/contact-me";
+@use "./partials/footer";
+
+
+// Media Queries
+
+@use "./partials/media-queries";

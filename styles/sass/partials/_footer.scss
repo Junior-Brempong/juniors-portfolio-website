@@ -1,0 +1,7 @@
+@use "./variables";
+
+footer {
+    background-color: variables.$box-shadow-color;
+    text-align: center;
+    color: white;
+}
