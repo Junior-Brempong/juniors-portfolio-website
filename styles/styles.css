@@ -308,6 +308,7 @@ header {
 
 header {
   padding-top: 50px;
+  position: relative;
 }
 header .nav-wrapper {
   display: -webkit-box;
@@ -394,8 +395,10 @@ header img {
 }
 
 .arrow {
+  position: absolute;
   text-align: center;
-  margin: 20% 0;
+  right: 50%;
+  bottom: 5%;
 }
 
 .bounce {
@@ -789,9 +792,6 @@ footer {
   }
 }
 @media (max-width: 1066px) {
-  .arrow {
-    margin: 30% 0;
-  }
   .contact-me .form-element {
     width: 200%;
     margin-left: 5%;

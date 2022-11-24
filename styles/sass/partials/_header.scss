@@ -9,6 +9,7 @@ header {
 
 header{
     padding-top: 50px;
+    position: relative;
     .nav-wrapper {
         display: flex;
         justify-content: space-between;
@@ -73,8 +74,10 @@ header{
 // Used this website to source animation : https://codepen.io/bisaillonyannick/pen/pvZeGg
 
 .arrow {
+    position: absolute;
     text-align: center;
-    margin: 20% 0;
+    right: 50%;
+    bottom: 5%;
   }
   .bounce {
     animation: bounce 2s infinite;
