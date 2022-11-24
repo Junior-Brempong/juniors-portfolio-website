@@ -573,6 +573,7 @@ header img {
 }
 .project-one .text-container, .project-two .text-container, .project-three .text-container {
   text-align: center;
+  width: 90%;
 }
 
 .projects h3 {
@@ -606,13 +607,20 @@ header img {
   -webkit-box-shadow: 10px 10px 15px #b5838d;
           box-shadow: 10px 10px 15px #b5838d;
 }
+.projects .project-one .img-container {
+  margin-right: 30px;
+}
 .projects .project-two img {
   -webkit-box-shadow: 10px 10px 15px #b5838d;
           box-shadow: 10px 10px 15px #b5838d;
+  margin-left: 30px;
 }
 .projects .project-three img {
   -webkit-box-shadow: 10px 10px 15px #b5838d;
           box-shadow: 10px 10px 15px #b5838d;
+}
+.projects .project-three .img-container {
+  margin-right: 30px;
 }
 .projects .projects-image {
   width: 80%;

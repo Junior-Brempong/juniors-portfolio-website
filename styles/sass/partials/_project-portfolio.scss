@@ -12,6 +12,7 @@
     }
     .text-container {
         text-align: center;
+        width: 90%;
     }
 }
 
@@ -42,15 +43,22 @@
         img {
             box-shadow: 10px 10px 15px variables.$box-shadow-color;
         }
+        .img-container {
+            margin-right: 30px;
+}
     }
     .project-two {
         img { 
             box-shadow: 10px 10px 15px variables.$box-shadow-color;
+            margin-left: 30px;
         }
     }
     .project-three {
         img { 
             box-shadow: 10px 10px 15px variables.$box-shadow-color;
+        }
+        .img-container {
+            margin-right: 30px;
         }
     }
     
