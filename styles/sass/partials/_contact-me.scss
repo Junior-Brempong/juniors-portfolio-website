@@ -57,11 +57,14 @@ input, textarea {
 #users-name {
     font-size: 1rem;
     line-height: 1rem;
+    padding: 10px;
   }
 
 #user-message {
     line-height: 4rem;
     font-size: 1rem;
+    resize: none;
+    padding: 10px;
 }
 
 // Effects & Animation::after

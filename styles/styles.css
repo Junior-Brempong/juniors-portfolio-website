@@ -770,11 +770,14 @@ input, textarea {
 #users-name {
   font-size: 1rem;
   line-height: 1rem;
+  padding: 10px;
 }
 
 #user-message {
   line-height: 4rem;
   font-size: 1rem;
+  resize: none;
+  padding: 10px;
 }
 
 /* Animation */
@@ -914,6 +917,11 @@ footer {
 @media (max-width: 689px) {
   h1 {
     text-align: center;
+  }
+}
+@media (max-width: 662px) {
+  .skills .skills-container .individual-skill {
+    padding: 20px;
   }
 }
 @media (max-width: 617px) {
