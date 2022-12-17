@@ -556,7 +556,7 @@ header img {
     opacity: 0;
   }
 }
-.project-one, .project-two, .project-three {
+.project-one, .project-two, .project-three, .project-four {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -565,13 +565,13 @@ header img {
       -ms-flex-align: center;
           align-items: center;
 }
-.project-one .img-container, .project-two .img-container, .project-three .img-container {
+.project-one .img-container, .project-two .img-container, .project-three .img-container, .project-four .img-container {
   width: 80%;
 }
-.project-one .img-container img, .project-two .img-container img, .project-three .img-container img {
+.project-one .img-container img, .project-two .img-container img, .project-three .img-container img, .project-four .img-container img {
   border-radius: 8px;
 }
-.project-one .text-container, .project-two .text-container, .project-three .text-container {
+.project-one .text-container, .project-two .text-container, .project-three .text-container, .project-four .text-container {
   text-align: center;
   width: 90%;
 }
@@ -615,11 +615,24 @@ header img {
           box-shadow: 10px 10px 15px #b5838d;
   margin-left: 30px;
 }
+.projects .project-two .text-container {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
 .projects .project-three img {
   -webkit-box-shadow: 10px 10px 15px #b5838d;
           box-shadow: 10px 10px 15px #b5838d;
 }
 .projects .project-three .img-container {
+  margin-right: 30px;
+}
+.projects .project-four img {
+  -webkit-box-shadow: 10px 10px 15px #b5838d;
+          box-shadow: 10px 10px 15px #b5838d;
+  margin-left: 25px;
+}
+.projects .project-four .img-container {
   margin-right: 30px;
 }
 .projects .projects-image {
@@ -654,6 +667,13 @@ header img {
   transition: all 0.3s ease-in-out;
 }
 
+.project-four img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 .project-one h4:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -675,6 +695,13 @@ header img {
   transition: all 0.3s ease-in-out;
 }
 
+.project-four h4:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 .project-one button:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -690,6 +717,13 @@ header img {
 }
 
 .project-three button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.project-four button:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition: all 0.3s ease-in-out;

@@ -1,6 +1,6 @@
 @use "./variables";
 
-.project-one, .project-two, .project-three {
+.project-one, .project-two, .project-three, .project-four {
     display: flex;
     margin-top: 100px;
     align-items: center;
@@ -52,10 +52,22 @@
             box-shadow: 10px 10px 15px variables.$box-shadow-color;
             margin-left: 30px;
         }
+        .text-container {
+            order: -1;
+        }
     }
     .project-three {
         img { 
             box-shadow: 10px 10px 15px variables.$box-shadow-color;
+        }
+        .img-container {
+            margin-right: 30px;
+        }
+    }
+    .project-four {
+        img { 
+            box-shadow: 10px 10px 15px variables.$box-shadow-color;
+            margin-left: 25px;
         }
         .img-container {
             margin-right: 30px;
@@ -90,6 +102,12 @@
     transition: all 0.3s ease-in-out;
 }
 
+.project-four img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+
 .project-one h4:hover {
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
@@ -105,6 +123,12 @@
     transition: all 0.3s ease-in-out;
 }
 
+.project-four h4:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+
 .project-one button:hover {
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
@@ -116,6 +140,11 @@
 }
 
 .project-three button:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.project-four button:hover {
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
