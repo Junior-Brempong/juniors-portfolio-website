@@ -560,13 +560,14 @@ header img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 100px;
+  margin-top: 60px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 .project-one .img-container, .project-two .img-container, .project-three .img-container, .project-four .img-container {
   width: 80%;
+  margin: 20px;
 }
 .project-one .img-container img, .project-two .img-container img, .project-three .img-container img, .project-four .img-container img {
   border-radius: 8px;
@@ -601,19 +602,15 @@ header img {
   margin-right: 6px;
 }
 .projects .project-one {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .projects .project-one img {
   -webkit-box-shadow: 10px 10px 15px #b5838d;
           box-shadow: 10px 10px 15px #b5838d;
 }
-.projects .project-one .img-container {
-  margin-right: 30px;
-}
 .projects .project-two img {
   -webkit-box-shadow: 10px 10px 15px #b5838d;
           box-shadow: 10px 10px 15px #b5838d;
-  margin-left: 30px;
 }
 .projects .project-two .text-container {
   -webkit-box-ordinal-group: 0;
@@ -624,16 +621,9 @@ header img {
   -webkit-box-shadow: 10px 10px 15px #b5838d;
           box-shadow: 10px 10px 15px #b5838d;
 }
-.projects .project-three .img-container {
-  margin-right: 30px;
-}
 .projects .project-four img {
   -webkit-box-shadow: 10px 10px 15px #b5838d;
           box-shadow: 10px 10px 15px #b5838d;
-  margin-left: 25px;
-}
-.projects .project-four .img-container {
-  margin-right: 30px;
 }
 .projects .projects-image {
   width: 80%;
@@ -883,6 +873,20 @@ footer {
   .project-three.aos-init.aos-animate img {
     margin-bottom: 25px;
   }
+  .project-four.aos-init.aos-animate {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .project-four.aos-init.aos-animate img {
+    margin-bottom: 25px;
+  }
+  .project-four.aos-init.aos-animate .img-container {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+  }
 }
 @media (max-width: 886px) {
   .projects h3 {
@@ -982,6 +986,9 @@ footer {
 @media (max-width: 535px) {
   .projects h3 {
     width: 100%;
+  }
+  .tech-stack-display {
+    display: none;
   }
 }
 @media (max-width: 535px) {
